@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+:root {
+  --primery-gradient: background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,197,204,1) 76%, rgba(0,0,0,1) 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  outline: 0;
+}
+
+body {
+
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,197,204,1) 76%, rgba(0,0,0,1) 100%);
+  margin: 0;
+  padding: 0
+}
+
+.container {
+  padding: 20px;
+
+  background:rgb(2,0,36);
+  width: 736px;
+  margin: 50px auto;
+
+  color: #FAFAFC;
+
+  border-radius: 8px;
+}
+.container h1 {
+  text-align: center;
+}
+
+.calcule-seu-imc {
+  text-align: center;
+  margin-top: 50px;
+}
+.container p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+span {
+  color: #FAFAFC;
+  font-size: 10px;
+}
+
+li{
+  font-size: 15px;
+}
+
+.imc-info {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+.table-imc{
+  display: grid;
+  float: left;
+  width: 50%;
+  
+  
+}
+.result-imc{
+  display: grid;
+  float: right;
+  width: 50%;
+  width: 150px;
+  height: 100px;
+  margin: 0 10px;
+
+  
+}
+form {
+  margin-top: 30px;
+
+  display: grid;
+  grid-column: auto;
+}
+
+form input, form label, form butom {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form input {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  height: 56px;
+  padding: 0 24px;
+
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #55515e;
+}
+
+form input:focus {
+  outline: 1px solid #00FFFF;
+}
+
+form button {
+  height: 56px;
+
+  background: #04D361;
+  border-radius: 8px;
+  border: none;
+
+  font-family: 'Archivo';
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  color: #FFFFFF;
+
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #029142;
+}
+
+.p-result {
+  background:#029142 ;
+  padding: 10px 20px;
+
+}
+
+.p-invalid {
+  background: rgb(233, 66, 66) ;
+  padding: 10px 20px;
+}
